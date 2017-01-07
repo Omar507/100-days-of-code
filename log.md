@@ -10,3 +10,4 @@ Worked a little bit on how to use Github pages and pulled my Beach Project.
 **Today's Progress**: Started working on my tribute page. 
 Learned a lot on how to use div's and how to align them in the page.
 I am enjoying doing this and I think this page will look great once finished.
+Learned a little bit more of JavaScript and switch.
