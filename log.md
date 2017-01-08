@@ -11,3 +11,9 @@ Worked a little bit on how to use Github pages and pulled my Beach Project.
 Learned a lot on how to use div's and how to align them in the page.
 I am enjoying doing this and I think this page will look great once finished.
 Learned a little bit more of JavaScript and switch.
+
+### Day 3: January 8, 2017 
+
+**Today's Progress**: Finished my tribute page and learned more about Javascript.
+I can't wait for the moment when I will be able to master programmming.
+I checked out some demos of the roguelike project on FCC and I also can not wait until I try that out.
