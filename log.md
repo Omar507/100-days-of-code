@@ -17,3 +17,9 @@ Learned a little bit more of JavaScript and switch.
 **Today's Progress**: Finished my tribute page and learned more about Javascript.
 I can't wait for the moment when I will be able to master programmming.
 I checked out some demos of the roguelike project on FCC and I also can not wait until I try that out.
+
+### Day 4: January 9, 2017 
+
+**Today's Progress**: Completed FCC's basic Javascript part. Started reading "You don't know JS: Up and Goind",
+and already finished the first chapter.
+Today I programmed a lot since I woke up earlier than usual. A total of 4 hours of programming. 
