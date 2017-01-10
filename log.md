@@ -23,3 +23,8 @@ I checked out some demos of the roguelike project on FCC and I also can not wait
 **Today's Progress**: Completed FCC's basic Javascript part. Started reading "You don't know JS: Up and Goind",
 and already finished the first chapter.
 Today I programmed a lot since I woke up earlier than usual. A total of 4 hours of programming. 
+
+### Day 5: January 10, 2017
+
+**Today's Progress**: Kept on reading YDKJS Up and Going. Second chapter now.
+Made my first basic algorithm in FCC, "reverse a string".
