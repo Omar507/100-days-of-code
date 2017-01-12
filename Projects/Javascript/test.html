@@ -1,0 +1,86 @@
+<html>
+<head>
+</head>
+<body>
+<script type = "text/javascript">
+
+    // this is an object
+    var dog = {
+        name: "Tobby",
+        color: "Grey",
+    };
+
+    // this is an array
+    var doggy = [
+        "funny",
+        7,
+        "lazy"
+    ];
+    
+    // this is a function
+    function foo(){
+        return 42;
+    };
+    
+    // this is a switch statement
+    var a = 2;
+    switch (a) {
+        case 1: 
+            result = "Number One";
+            break;
+        case 2: 
+            result = "Number Two";
+            break;
+    };
+    
+    // strict mode
+    function woahStrict() {
+        "use strict";
+        return "hello";
+    };
+    
+    //functions are values
+    var hey = function helloWorld(){
+        console.log("Hello World");
+    };
+
+    //modules
+    function User() {
+        var username, password;
+        
+        function doLogin(user, pw) {
+            username = user;
+            password = pw;
+        };
+        
+        var publicAPI = {
+            login: doLogin
+        };
+        
+        return publicAPI;
+    };
+    
+    var fred = User();
+    fred.login("fred", "ronaldo1");
+    
+    //this identifier
+    function experimentThis() {
+        console.log( this.bar );
+    };
+    
+    var bar = "global";
+    var obj1 = {
+        bar: "obj1",
+        foo: experimentThis
+    };
+    var obj2 = {
+        bar: "obj2"
+    }
+    
+    experimentThis();
+    obj1.foo();
+    experimentThis.call(obj2);
+    new experimentThis();
+</script> 
+</body>
+</html>
