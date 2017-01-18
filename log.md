@@ -29,6 +29,18 @@ Today I programmed a lot since I woke up earlier than usual. A total of 4 hours 
 **Today's Progress**: Kept on reading YDKJS Up and Going. Second chapter now.
 Made my first basic algorithm in FCC, "reverse a string".
 
-### Dat 6: January 11, 2017
+### Day 6: January 11, 2017
 **Today's Progress**: Made some algorithms for FCC and finished the second chapter of YDKJS.
 I almost done with the first book and I hoping that tomorrow I dive into the next.
+
+### Missed day January 12, 2017
+
+### RESET 
+
+### Day 1: January 17, 2017
+**Today's Progress**: Kept on reading YDKJS and did some basic algorithms in FCC.
+Searched a bit about game development.
+
+### Day 2: January 18, 2017
+***Today's Progress**: I am almost finishing the second book on the YDKJS series.
+Made more algorithms on FCC. I really want to know how I can apply this knowledge to a real site.

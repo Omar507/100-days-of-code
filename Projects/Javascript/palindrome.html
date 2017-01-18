@@ -5,13 +5,17 @@
 <script type = "text/javascript">
 
     function palindrome(str) {
-        str.replace(/[^\w\s]/gi, '')
-        return str;
+        str = str.replace(/[^a-zA-Z1-9]/g, '');
+        str = str.toLowerCase();
+        strReversed = str.split("");
+        strReversed = strReversed.reverse();
+        strReversed = strReversed.join("");
+        return str == strReversed;
     }
     
     
     
-    console.log(palindrome("five|\_/|four"));
+    console.log(palindrome("fiVE|\_/|four"));
 </script> 
 </body>
 </html>

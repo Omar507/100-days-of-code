@@ -1,0 +1,42 @@
+<html>
+<head>
+</head>
+<body>
+<script type = "text/javascript">
+
+   
+    function titleCase(str) {
+        var str = str.split(" ");
+        var newStr = [];
+        var strWord;
+        
+        
+        for (i = 0; i < str.length; i++ ){
+            
+            
+            
+            strWord = str[i];
+            strWord = strWord.toLowerCase();
+            console.log("strWord lower", strWord);
+
+            
+            
+            strWord = strWord.split("");
+            console.log("strWord split", strWord);
+            strWord[0] = strWord[0].toUpperCase();
+            console.log("strWord[0] to upper case", strWord[0]);
+            strWord = strWord.join("");
+            console.log("strWord joined", strWord);
+            newStr.push(strWord);
+        }
+        return newStr.join(" ");
+    }
+    
+    console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
+    
+    
+
+    
+</script> 
+</body>
+</html>
