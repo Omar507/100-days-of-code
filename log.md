@@ -44,3 +44,19 @@ Searched a bit about game development.
 ### Day 2: January 18, 2017
 ***Today's Progress**: I am almost finishing the second book on the YDKJS series.
 Made more algorithms on FCC. I really want to know how I can apply this knowledge to a real site.
+
+### Day 3: January 19, 2017
+***Today's Progress**: Kept on reading YDKJS and made some algorithms in FCC.
+
+### Day 4: January 20, 2017
+***Today's Progress**: Kept on reading YDKJS. Decided to not pursue game development as of now.
+
+### Day 5: January 21, 2017
+***Today's Progress**: Found a quick easy guide to follow about game development in javascript.
+Made a very simple game with it, really enjoyed doing that. I wanted to know how to make something appear on screen with 
+Javascript for a while now. 
+I also found another project in Github, based on this tutorial, which I want to examine sometime: 
+https://github.com/evanfinnigan/monster_lazer
+
+Doing this small tutorial really made me want to learn more about javascript. Can't wait to make more projects.
+Might due a portofolio page for my girlfriend and upload it to surge.sh

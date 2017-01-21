@@ -1,0 +1,189 @@
+<html>
+<head>
+</head>
+<body>
+<script type = "text/javascript">
+// YDKJS: this & Object Prototypes
+// *** Chapter One ***
+/*    
+    function identify() {
+        return this.name.toUpperCase();
+    }
+    
+    function speak() {
+        var greeting = "Hello, I'm " + identify.call(this);
+        console.log(greeting);
+    }
+    
+    var me = {
+        name: "Kyle"
+    };
+    
+    var you = {
+        name: "Reader"
+    };
+    
+    
+    identify.call(me); // KYLE
+    identify.call(you); // READER
+    
+    speak.call(me); // Hello I'm Kyle
+    speak.call(you); // Hello I'm Reader
+    
+    
+    function foo(num) {
+        console.log( "foo: " + num );
+        
+        this.count++;
+    }
+    
+    foo.count = 0;
+    
+    var i;
+    
+    for (i=0; i < 10; i++) {
+        if (i > 5) {
+            foo.call( foo, i);
+        }
+    }
+    
+    
+    console.log(foo.count); //4
+    
+*/
+// *** Chapter Two ***
+    
+    /*
+    function baz() {
+        //call-stack is: baz
+        //so, our call-site is in the global scope 
+        
+        console.log("baz");
+        bar(); // <-- call-site for bar
+    }
+    
+    function bar() {
+        //call-stack is: baz -> bar
+        //so our call-site is in baz
+        
+        console.log("bar");
+        foo(); // <-- call-site for foo
+    }
+    
+    function foo() {
+        debugger;
+        //call-stack is: baz -> bar -> foo
+        //so our call-site is in bar
+        
+        console.log("foo");
+    }
+    
+    baz(); // <-- call-site for baz
+    
+    
+    
+    //Default Binding
+    
+    function foo() {
+        console.log(this.a);
+    }
+    
+    var a = 2;
+    
+    foo(); //2
+    
+    
+    //Implicit Binding
+    
+    function foo() {
+        console.log( this. a );
+        
+    }
+    
+    var obj = {
+        a: 2,
+        foo: foo
+    };
+    
+    obj.foo(); //2
+    
+    //Implicitly Lost
+    
+    function foo() {
+        console.log(this.a);
+    }
+    
+    var obj = {
+        a: 2,
+        foo: foo
+    };
+    
+    var bar = obj.foo; //function reference/alias
+    
+    var a = "ops, global";
+    
+    bar(); // ops global
+    
+    
+    //Explicit Binding
+    
+    function foo() {
+        console.log( this.a );
+    }
+    
+    var obj = {
+        a: 2
+    };
+    
+    foo.call( obj ); // 2
+    
+    //Harding Binding
+    
+    var bar = function() {
+        foo.call( obj );
+    }
+    
+    bar(); //2 
+    bar.call( window ); //2
+    
+    function foo(a) {
+        this.a = a;
+    }
+    
+    var bar = new foo( 2 );
+    console.log(bar.a); //2
+    
+    */
+    //Everything in order
+    
+    //Explicit Binding > Implicit Binding 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</script> 
+</body>
+</html>
