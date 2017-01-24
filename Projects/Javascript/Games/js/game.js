@@ -139,6 +139,8 @@ var then = Date.now();
 reset();
 main();
 
+// MADE WITH THE TUTORIAL FROM http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/   
+
 
 
 

@@ -156,28 +156,184 @@
     */
     //Everything in order
     
-    //Explicit Binding > Implicit Binding 
+    //New Binding > Explicit Binding > Implicit Binding 
+
+// *** Chapter Three ***
+    /*
+    
+    
+    var strPrimitive = "I am a string";
+    typeof strPrimitive; //"string"
+    strPrimitive instanceof String; // false 
+    
+    var strObject = new String("I am a string");
+    typeof strObject; // "object"
+    strObject instanceof String; //true
+    
+    //inspect the object sub-type
+    Object.prototype.toString.call( strObject ); // [object String]
     
     
     
+    //Property Descriptors
+    
+    var myObject = {   }
+    
+    Object.defineProperty( myObect, a, {
+        value: 2,
+        writable: true,
+        configurable: true,
+        enumerable: true
+    } );
     
     
+    //Immutability
+    
+        //Object Constant
+    
+    var myObject = {}
+    Object.defineProperty( myObject, "FAVOURITE_NUMBER", {
+        value: 42,
+        writable: false,
+        configurable: false,
+    });
+    
+        //Prevent Extensions
+    
+    var myObject = {
+        a:2
+    };
+    
+    Object.preventExtensions( myObject );
+    
+    myObject.b = 3;
+    myObject.b; //undefined
+    
+        //Seal
+    Object.seal() calls Object.preventExtensions() on it, but marks
+    all its existing properties as configurable:false.
+        
+        //Freeze
+    Calls Object.seal() but also marks all properties as writable:false.
+    Highest level of Immutability.
+
+    // [[Get]]
+    var myObject = {
+        a: undefined
+    };
+    
+    myObject.a; // undefined
+    myObject.b; // undefined (but actually doesnt exist)
+    
+    //[[Put]]
+    
+    //Getters & Setters
+    //Are properties which actually call a hidden
+    //function to retrieve/set a value.
+    
+    var myObject = {
+        //define a getter for a
+        get a() {
+            return 2;
+        }
+    }; 
+    
+    Object.defineProperty(
+        myObject, //target
+        "b", // property name
+        {       // descriptor
+            //define a getter for b
+            get: function(){ return this.a * 2},
+            
+            //make sure b shows up as an object property
+            enumerable: true
+        }
+    );
+    
+    myObject.a; // 2
+    myObject.b; // 4
+        
+    
+    var myObject = {
+        // define a getter for 'a' 
+        get a(){
+            return this._a_;
+        },
+        
+        //define a setter for 'a'
+        set a(val) {
+            this._a_ = val * 2;
+        }
+    };
+    
+    myObject.a = 2;
+    myObject.a; // 4
+    //Existence
+    //Property acess like myObject.a may result in undefined if the value is either
+    //undefined or if the a property doesn't exist at all
+    
+    var myObject = {
+        a: 2
+    };
+    
+    ("a" in myObject); // true
+    
+    myObject.hasOwnProperty("a"); // true
     
     
+    //Enumeration
+    //Enumerable basically means "will be included if the object's properties are iterated through"
     
+    var myObject = { };
+
+    Object.defineProperty(
+        myObject,
+        "a",
+        // make `a` enumerable, as normal
+        { enumerable: true, value: 2 }
+    );
+
+    Object.defineProperty(
+        myObject,
+        "b",
+        // make `b` NON-enumerable
+        { enumerable: false, value: 3 }
+    );
+
+    myObject.b; // 3
+    ("b" in myObject); // true
+    myObject.hasOwnProperty( "b" ); // true
+
+    // .......
+
+    for (var k in myObject) {
+        console.log( k, myObject[k] );
+    }
+    // "a" 2
+     
+    //Another way to distinguish enumerable from non enumerable
+    myObject.propertyIsEnumerable( "a" ); //true
     
+    Object.keys(myObject); // ['a']
+    Object.getOwnPropertyName( myObject ); // ["a", "b"]
+    */
+    //Iteration
+    //the for .. in loop iterates only over the list of enumberable properties, not values
+    //iterate over the values directly with for .. of
     
+    var myArray = [1, 2, 3];
     
+    for (var v of myArray){
+        console.log(v);
+    }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    var myArray = [ 1, 2, 3 ];
+    var it = myArray[Symbol.iterator]();
+
+    it.next(); // { value:1, done:false }
+    it.next(); // { value:2, done:false }
+    it.next(); // { value:3, done:false }
+    it.next(); // { done:true }
     
     
     

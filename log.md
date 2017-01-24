@@ -59,4 +59,16 @@ I also found another project in Github, based on this tutorial, which I want to 
 https://github.com/evanfinnigan/monster_lazer
 
 Doing this small tutorial really made me want to learn more about javascript. Can't wait to make more projects.
-Might due a portofolio page for my girlfriend and upload it to surge.sh
+
+### Day 6: January 22, 2017
+***Today's Progress**: Read about javascript in w3shools
+
+### Day 7: January 23, 2017
+***Today's Progress**: One week done! I will keep on with YDKJS and maybe try out Kivy tomorrow.
+
+### Day 8: January 24, 2017
+***Today's Progress**: Alright, today was a very productive day. Managed to complete the third chapter of the third YDKJS
+Book. I really liked this chapter because I wanted to know more about objects, since I find them interesting.
+However, I miss working on Algorithms. I want to atleast complete one per day.
+I started learning Kiwi to work on my Question App Project and photo editor.
+The first project I completed with Kiwi was a simple pong game.
