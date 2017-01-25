@@ -316,7 +316,7 @@
     
     Object.keys(myObject); // ['a']
     Object.getOwnPropertyName( myObject ); // ["a", "b"]
-    */
+    
     //Iteration
     //the for .. in loop iterates only over the list of enumberable properties, not values
     //iterate over the values directly with for .. of
@@ -334,6 +334,157 @@
     it.next(); // { value:2, done:false }
     it.next(); // { value:3, done:false }
     it.next(); // { done:true }
+    
+    //Objects do not have a built in @@iterator
+    
+// *** Chapter Four: Mixing (Up) "Class" Objects ***
+    
+    //Class Theory
+    //length, appending data, searching are all methods of the String class
+    
+    //Class Design Pattern
+    
+    //Javascript "Classes"
+    //JS has had some class-like syntatic elements (like new and instance of)
+    //and also class keyword
+    //But JS doesn't actually have classes, only an illusion
+    
+    //Class Mechanics
+    //A class is a blue-print. To get an object we can interact with, we have to first instantiate 
+    //something from the class. The result of such construction is an "object"/"instance".
+    
+    //Constructor 
+    //Joe = new CoolGuy( "jumping rope" )
+    //Joe.showOff()
+    
+    //Class Inheritance
+    //You can also define a second class that inherits from the first
+    //The child class can override any inherited behaviour
+    
+    //Polymorphism
+    //Inherit traits from parent class
+    //The method changes according to the current class
+    //The child class only has acess to copies of the parent class
+    
+    //Multiple Inheritance
+    //More than one parent class
+    //Javascript does not
+    
+    //Mixins
+    //JS has no classes, only objects which can be copied, they get linked together
+    //How developers fake the missing copy:
+    
+    //Explicit Mixins
+    //Create an utility that manually copies - extend/mixin
+    //vastly simplified 'mixin(..)' example
+    
+    function mixin( sourceObj, targetObj ) {
+        for (var key in sourceObj) {
+            //only copy if not already present
+            if (!(key in targetObj)) {
+                targetObj[key] = sourceObj[key];
+            }
+        }
+        
+        return targetObj;
+    }
+    
+    var Vehicle = {
+        engines: 1, 
+        
+        ignition: function() {
+            console.log("Turning on my engine.");
+        },
+        
+        drive: function() {
+            this.ignition();
+            console.log( "Steering and moving forward" );
+        }
+    };
+    
+    var Car = mixin( Vehicle, {
+        wheels: 4,
+        
+        drive: function(){ 
+            Vehicle.drive.call( this );\
+            // ^ explicit pseudo-polymorphism to distinguish the drive
+            console.log( "Rolling on all " + this.wheels + " wheels!");
+        }
+    });
+    
+    //Explicit pseudo-polymorphism should be avoided wherever possible
+    
+    //Mixing Copies
+    
+    //Parasitic Inheritance
+    
+    function Vehicle() {
+        this.engines = 1;
+    }
+    
+    Vehicle.prototype.ignition = function() {
+        console.log( "Turning on my engine. " );
+    };
+    
+    Vehicle.prototype.drive = function() {
+        this.ignition();
+        console.log( "Steering and moving forward" );
+    };
+    
+    //Parasitic Class Car
+    function Car(){
+        var car = new Vehicle();
+        
+        car.wheels = 4;
+        
+        var vehDrive = car.drive;
+        
+        car.drive = function() {
+            vehDrive.call( this );
+            console.log( "Rolling on all " + this.wheels + " wheels.");
+        };
+        return car;
+    }
+    
+    var myCar = new Car();
+    
+    myCar.drive();
+    
+    //Implicit Mixins
+    
+// *** Chapter Five: Prototypes ***
+
+    //[[Prototype]]
+    //Objects in JavaScript have an internal property, 
+    //denoted in the specification as [[Prototype]], 
+    //which is simply a reference to another object 
+    
+    //Object.prototype
+    
+    //Setting & Shadowing Properties
+    
+    //"Class"
+    //All functions, by default, get a public non-enumerable property on them
+    //called prototype
+    function Foo(){
+        //..
+    }
+    
+    var a = new Foo();
+    Object.getPrototypeOf( a ) === Foo.prototype; // true
+    */
+    //(Prototypal) Inheritance
+
+    //Object Links
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

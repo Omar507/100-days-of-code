@@ -72,3 +72,8 @@ Book. I really liked this chapter because I wanted to know more about objects, s
 However, I miss working on Algorithms. I want to atleast complete one per day.
 I started learning Kiwi to work on my Question App Project and photo editor.
 The first project I completed with Kiwi was a simple pong game.
+
+### Day 9: January 25, 2017
+***Today's Progress**: Read a LOT of You Dont Know JS: Book 3. 
+Started Shawn's HTML & CSS Tutorial just to remember what I've learned before.
+I'll soon start my portofolio page.
