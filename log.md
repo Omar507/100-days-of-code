@@ -20,7 +20,7 @@ I checked out some demos of the roguelike project on FCC and I also can not wait
 
 ### Day 4: January 9, 2017 
 
-**Today's Progress**: Completed FCC's basic Javascript part. Started reading "You don't know JS: Up and Goind",
+**Today's Progress**: Completed FCC's basic Javascript part. Started reading "You don't know JS: Up and Going",
 and already finished the first chapter.
 Today I programmed a lot since I woke up earlier than usual. A total of 4 hours of programming. 
 
@@ -77,3 +77,30 @@ The first project I completed with Kiwi was a simple pong game.
 ***Today's Progress**: Read a LOT of You Dont Know JS: Book 3. 
 Started Shawn's HTML & CSS Tutorial just to remember what I've learned before.
 I'll soon start my portofolio page.
+
+### Day 10: January 26, 2017
+***Today's Progress**: Studied YDKJS.
+
+### Day 11: January 27, 2017
+***Today's Progress**: No web development today. Applied for a Xamarin Marathon made by Microsoft.
+Installing Xamarin is very interesting, but I am sure everything will go fine.
+
+### Day 12: January 31, 2017
+***Today's Progress**: Studied YDKJS and worked on FCC basic algorithms.
+
+### Day 13: February 1, 2017
+***Today's Progress**: Finally finished YDKJS Book 3. This one had many concepts and I couldn't understand all of them.
+I will eventually read them again when I am more experienced, but it did help me a lot.
+Also completed Lesson 2 of Shay Howe's basic HTML and CSS tutorial.
+
+### Day 14: February 2, 2017
+***Today's Progress**: Completed one more lesson of Shay Howe's tutorial. Programmed only a little.
+
+### Day 15: February 6, 2017
+***Today's Progress**: 
+I realize that I am not programming on my weekends. Not even an hour. I will have to change that.
+Finished another lesson from Shay Howe. I am really starting to like html and css, his tutorial
+gave me a new perspective.
+
+### Day 16: February 7, 2017
+***Today's Progress***: Completed one Algorithm. And got 50% of Shay's fifth lesson done.
