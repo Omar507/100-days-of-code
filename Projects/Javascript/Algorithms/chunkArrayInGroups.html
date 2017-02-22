@@ -4,16 +4,26 @@
 <body>
 <script type = "text/javascript">
 
-   
-    
+
+
     function chunkArrayInGroups(arr, size) {
-            
-    
+      var fullArr = [];    
+      for ( i = 0; i < arr.length; i += size ){
+        console.log(arr[i]);
+        slicedArr = arr.slice(i, i + size)
+        fullArr.push(slicedArr);
+      }
+      return fullArr;
     }
-    
-    
-    
-    
-</script> 
+
+    //console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 3))
+    //[[0, 1, 2], [3, 4, 5]]
+    console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2));
+    //[["a", "b"], ["c", "d"]]
+    //var arr = ["a", "b"];
+    //console.log(arr);
+    //arr.push("c");
+    //console.log(arr);
+</script>
 </body>
 </html>

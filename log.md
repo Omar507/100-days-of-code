@@ -104,3 +104,54 @@ gave me a new perspective.
 
 ### Day 16: February 7, 2017
 ***Today's Progress***: Completed one Algorithm. And got 50% of Shay's fifth lesson done.
+
+### Day 17: February 8, 2017
+***Today's Progress***: Spent one hour on Shay's lesson.
+Started CS50 (1h30')
+
+
+### Day 18: February 9, 2017
+***Today's Progress***: Spent one hour on CS50
+
+### Day 19: February 13, 2017
+***Today's Progress***: Finished CS50 first problem set with Scratch! 
+Made a simple game you can check out on:
+https://scratch.mit.edu/projects/145083156/
+Current Streak: 1 day.
+
+### Day 20: February 14, 2017
+***Today's Progress***: Completed the first half of Shay's sixth Lesson.
+Current Streak: 2 day.
+
+### Day 20: February 15, 2017
+***Today's Progress***: Done with Shay's sixth lesson! Yeah!
+In the following lessons I will be taking notes on a notebook.
+Brackets keep giving me errors when I am trying to save a file. Looks like its a problem with files stored on a network.
+Therefore, I am changing text editors. I'll be using Atom now. I'll review it in a sec.
+Great. LOVED IT!
+Current Streak: 3 day.
+
+### Day 21: February 16, 2017
+***Today's Progress***: Worked on my new project. Used google keyword planner and researched about google ads.
+Current Streak: 4 day.
+
+### Day 22: February 17, 2017
+***Today's Progress***: First half of Shay's 7th Lesson done. It is great to know more about gradient backgrounds.
+(I didn't even knew they were possible)
+Current Streak: 5 day.
+
+### Day 23: February 18, 2017
+***Today's Progress***: Completed Shay's 7th lessson!
+On this lesson I took notes and I also plan to do that to the following lessons.
+Writing down what you learn really helps.
+Current Streak: 6 days.
+
+### Day 24: February 21, 2017
+***Today's Progress***: Watched cs50 week two.
+Current Streak: 1 days.
+
+### Day 25: February 22, 2017
+***Today's Progress***: Great day! Managed to program 3 hours without distractions!
+Finished watching cs50's second lesson. Almost done with Shay's 8th lesson, about lists.
+As a mini side project, I made a small navigation bar in css and html.
+Current Streak: 2 days.
