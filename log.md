@@ -155,3 +155,12 @@ Current Streak: 1 days.
 Finished watching cs50's second lesson. Almost done with Shay's 8th lesson, about lists.
 As a mini side project, I made a small navigation bar in css and html.
 Current Streak: 2 days.
+
+### Day 26: February 23, 2017
+***Today's Progress***: Alright, today wasn't as good as yesterday, but I still managed to do quiet a bit.
+Worked on cs50's first week's problem set. Almost done with it, but I'm not that pumped for doing cs50, since I'll eventually
+have an introduction to CS in the university.
+Finished Shay's 8th lesson! I also started to work on Udemy's The Web Developer Bootcamp.
+I am really liking the format of this course, and even though it won't give me an indepth knowledge, I'll still go through it
+to get a grasp of all the different parts of a website.
+Current Streak: 3 days.
