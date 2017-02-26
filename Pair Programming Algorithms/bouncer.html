@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+<body>
+<script type = "text/javascript">
+
+function isNotFalse(value){
+  return value;
+}
+
+
+
+function bouncer(arr) {
+
+  var newArr = arr.filter(isNotFalse);
+  return newArr;
+}
+
+console.log(bouncer([7, "ate", "", false, 9]));
+//[7, "ate", 9]
+
+
+
+</script>
+</body>
+</html>

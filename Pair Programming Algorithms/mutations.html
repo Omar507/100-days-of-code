@@ -1,0 +1,35 @@
+<html>
+<head>
+</head>
+<body>
+<script type = "text/javascript">
+
+
+
+  function mutation(arr) {
+    var firstString = arr[0].toLowerCase();
+    var secondString = arr[1].toLowerCase();
+
+    for(var i = 0; i < secondString.length; i++){
+        if (firstString.indexOf(secondString[i]) === -1) {
+          return false;
+        }
+        else {
+          continue;
+        }
+        }
+        return true;
+    }
+
+
+
+console.log(mutation(["floor", "for"]));
+//true
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -164,3 +164,12 @@ Finished Shay's 8th lesson! I also started to work on Udemy's The Web Developer 
 I am really liking the format of this course, and even though it won't give me an indepth knowledge, I'll still go through it
 to get a grasp of all the different parts of a website.
 Current Streak: 3 days.
+
+### Day 27: February 24, 2017
+***Today's Progress***: Unfortunately I forgot to write this log. So I'm writing it today (25.02)
+I worked on Shay's 9th lesson. Awesomee!
+Current Streak: 4 days.
+
+### Day 28: February 26, 2017
+***Today's Progress***: Pair Programmed with Joanne!
+Current Streak: 1 day.
