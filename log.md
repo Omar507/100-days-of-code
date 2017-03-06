@@ -172,4 +172,22 @@ Current Streak: 4 days.
 
 ### Day 28: February 26, 2017
 ***Today's Progress***: Pair Programmed with Joanne!
+Current Streak: 5 day.
+
+### Day 29: March 1, 2017
+***Today's Progress***: Oficially completed cs50 pset1. Let's start week two.
+Also completed Shay Howe's 10th lesson, only two left! I also signed up on HackerRank, looks to be neat!
 Current Streak: 1 day.
+
+### Day 30: March 2, 2017
+***Today's Progress***: Week Two leceture started!
+Halfway done with Shay's 11th lesson, almost done! Watched some videos of The Web Dev Bootcamp.
+Current Streak: 1 day.
+
+### Day 31: March 3, 2017
+***Today's Progress***: Watched a bit of The Web Dev Bootcamp on udemy!
+Current Streak: 2 day.
+
+### Day 32: March 4, 2017
+***Today's Progress***: Finally done with Shay's HTML & CSS Course!!
+Current Streak: 3 day.
